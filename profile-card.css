@@ -1,0 +1,157 @@
+*{
+    font-family: "Roboto Condensed" ;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap);
+}
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 600px;
+    justify-content: center;
+    background-color: rgb(247, 238, 228);
+}
+.profile-card{
+    align-items: center;
+    top: 150px;
+    left: 515px;;
+    position: relative;
+    height: 400px;;
+    width: 400px;
+    background-color:white;
+    justify-content: center;
+    border-radius:30px;
+    border-style:outset;
+    box-sizing:border-box;
+}
+.image{
+    bottom: 260px;
+    left: 642px;;
+    position: relative;
+    height: 131px;
+    width: 131px;;
+    justify-content: center;
+    background-color:black;
+    border-radius: 70px;
+    padding: 3px;;
+    overflow: hidden;
+}
+.flowd{
+    bottom: 200px;
+    left: 642px;;
+    height: 130px;;
+    width: 130px;
+    justify-content: center;
+    border-radius:65px;
+}
+.profile-card.text-data{
+    display:flex;
+    align-items:center
+}
+.text-data{
+    bottom: 210px;;
+    left: 420px;;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    display: flex;
+    flex-direction:column;
+    font-size: 30px;
+    position: relative;
+    justify-content: center;
+    top: 150;
+}
+.specialty{
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    justify-content: center;
+    top: 160;
+}
+.profile-card.media-buttons{
+    display:flex;
+    align-items:center
+}
+.media-buttons{
+    text-decoration: none;
+    margin: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    height: 60px;;
+    width: 60px;
+    left: 660px;
+    bottom: 160;
+
+
+}
+.facebook{ 
+    display: flex;
+    text-decoration: none;
+    align-items: center;    
+    position: relative;
+    height: 34px;
+    width: 34px;
+    justify-content: center; 
+    margin: 20px;
+    left: 675px;
+    bottom: 180px;
+    color:blue;
+    background-color: white;
+    font-size: 40;;
+
+   
+    
+}
+.whatsapp{
+    display: flex;
+    text-decoration: none;
+    align-items: center;   
+    position: relative;
+    justify-content: center;
+    margin: 20px;
+    left: 675px;
+    bottom: 180px;
+    color: rgb(0, 255, 60);
+    background-color:white;;
+    font-size: 40px;;
+    height: 34px;
+    width: 34px;
+
+}
+.instagram{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    position: relative;   
+    justify-content: center; 
+    margin: 20px;
+    left: 675px;
+    bottom: 180px;
+    color:rgb(255, 0, 128) ;
+    background-color: white;
+    font-size: 40px;;
+    height: 34px;
+    width: 34px;
+
+
+}
+.uper-cover{
+    content:"";
+    position: absolute;;
+    top: 133px;;
+    left: 495px;
+    height: 20%;
+    width: 400px;
+    border-radius: 24px 24px 0 0;
+    background-color: rgb(184, 225, 243);
+    margin: 20px;
+}
